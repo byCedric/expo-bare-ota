@@ -1,0 +1,12 @@
+{
+  "name": "BareUpdateTest",
+  "displayName": "BareUpdateTest",
+  "expo": {
+    "name": "BareUpdateTest",
+    "slug": "BareUpdateTest",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
