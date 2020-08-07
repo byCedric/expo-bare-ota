@@ -31,7 +31,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>Open up App.tsx to start working on your app!</Text>
-      <Text>Should be visible</Text>
+      {/* <Text>Should be visible</Text> - Build production version, uncomment this and publish */}
 
       {state === states.idle && <Button title="Check for updates" onPress={checkForUpdate} />}
       {state === states.hasUpdate && <Button title="Download the update" onPress={downloadTheUpdate} />}
